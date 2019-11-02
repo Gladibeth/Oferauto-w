@@ -69,7 +69,7 @@
                 -#   %li
                 -#     %a{:href => "#"} Sillones
               %li.nav-item
-                %a.nav-link{:href => "details.hml"} Quiénes somos
+                %a.nav-link{:href => "#product"} Quiénes somos
               %li.nav-item
                 %a.nav-link{:href => "#product"} Contacto
               %li.nav-item
@@ -78,77 +78,15 @@
                     .search-wrapper
                       %input.search-input{:placeholder => "Search", :type => "text"}/
                       %i.fa.fa-search
-      
-    .main-banner
-      .main-banner__content
-        .main-banner__item
-          .mask
-            .main-banner__text
-              .main-banner__title
-                %p Bienvenidos a Oferautos
-              .btn-box-form
-                %form
-                  .form-group
-                    %input#formGroupExampleInput.form-control{:placeholder => "Buscar Producto", :type => "text"}/
-                  .form-group
-                    %select#inputState.form-control
-                      %option{:selected => "selected"} Marca
-                      %option ...
-                  .form-group
-                    %select#inputState.form-control
-                      %option{:selected => "selected"} Modelo
-                      %option ...
-                  .form-group
-                    .float-right
-                      %a.btn_custom.btn--medium.btn--filled{ :href=>"#"}
-                        Search
-          .main-banner__img
-            %img{ :src => "http://autopro.jwsuperthemes.com/wp-content/uploads/2017/06/slider3-v1a.jpg"}/
-        .main-banner__item
-          .mask
-            .main-banner__text
-              .main-banner__title
-                %p Bienvenidos a Oferautos
-              .btn-box-form
-                %form
-                  .form-group
-                    %input#formGroupExampleInput.form-control{:placeholder => "Buscar Producto", :type => "text"}/
-                  .form-group
-                    %select#inputState.form-control
-                      %option{:selected => "selected"} Marca
-                      %option ...
-                  .form-group
-                    %select#inputState.form-control
-                      %option{:selected => "selected"} Modelo
-                      %option ...
-                  .form-group
-                    .float-right
-                      %a.btn_custom.btn--medium.btn--filled{ :href=>"#"}
-                        Search
-          .main-banner__img
-            %img{ :src => "http://autopro.jwsuperthemes.com/wp-content/uploads/2017/06/slider4-v1a.jpg"}/
+     
     .main-quotation
       .container
         .main-general__title
-          %p
-            Ofertas
         .main-quotation__content
           .main
-            .slider.slider-nav
-              %div
-                .main-quatation__img
-                  %img{ :src => "https://fotos.perfil.com/2018/07/01/trim/1140/641/1-fiat-argo-22.jpg"}/
-              %div
-                .main-quatation__img
-                  %img{ :src => "https://autoblog.com.ar/wp-content/uploads/2018/02/CRONOS1.jpg"}/
-              %div
-                .main-quatation__img
-                  %img{ :src => "https://www.megautos.com/wp-content/uploads/2017/05/Fiat-Argo-HGT-Mopar-dinamica.jpg"}/
-              %div
-                .main-quatation__img
-                  %img{ :src => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyH3vBU_u2_8IRUVNyMwj_hjG0DGq3kTdxM6XL66zlDE2kNFHJ&s"}/
+
               
-            .slider.slider-for
+            .slider.slider-for-details
               %div
                 .main-quatation__container
                   .main-quatation__item
@@ -233,15 +171,26 @@
                   .main-quatation__item
                     .main-quatation__img
                       %img{ :src => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyH3vBU_u2_8IRUVNyMwj_hjG0DGq3kTdxM6XL66zlDE2kNFHJ&s"}/
- 
+            .slider.slider-nav-details
+              %div
+                .main-quatation__img
+                  %img{ :src => "https://fotos.perfil.com/2018/07/01/trim/1140/641/1-fiat-argo-22.jpg"}/
+              %div
+                .main-quatation__img
+                  %img{ :src => "https://autoblog.com.ar/wp-content/uploads/2018/02/CRONOS1.jpg"}/
+              %div
+                .main-quatation__img
+                  %img{ :src => "https://www.megautos.com/wp-content/uploads/2017/05/Fiat-Argo-HGT-Mopar-dinamica.jpg"}/
+              %div
+                .main-quatation__img
+                  %img{ :src => "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyH3vBU_u2_8IRUVNyMwj_hjG0DGq3kTdxM6XL66zlDE2kNFHJ&s"}/
 
-
-    .main-products
+   
       .container
         .main-general__title
           %p
-            Productos
-        .main-products__content
+            Los más buscados
+        .main-products__content.main-buscado__content
           .main-products__item
             .main-products__box
               .main-products__img
@@ -286,113 +235,8 @@
                   %span Nuevo
                   %span 2019
                   %span Automatico
-                  %span Gris
-          .main-products__item
-            .main-products__box
-              .main-products__img
-                %img{ :src => "https://www.conduciendo.com/wp-content/uploads/2017/10/Fiat-Argo-171017-04.jpg"}/
-              .main-products__text
-                .main-products__price
-                  %span $85,000.00
-                .main-products__title
-                  %p Cayenne Models
-                %hr.line/
-                .main-products__details
-                  %span Nuevo
-                  %span 2019
-                  %span Automatico
-                  %span Gris
-          .main-products__item
-            .main-products__box
-              .main-products__img
-                %img{ :src => "https://www.conduciendo.com/wp-content/uploads/2017/10/Fiat-Argo-171017-04.jpg"}/
-              .main-products__text
-                .main-products__price
-                  %span $85,000.00
-                .main-products__title
-                  %p Cayenne Models
-                %hr.line/
-                .main-products__details
-                  %span Nuevo
-                  %span 2019
-                  %span Automatico
-                  %span Gris
-          .main-products__item
-            .main-products__box
-              .main-products__img
-                %img{ :src => "https://www.conduciendo.com/wp-content/uploads/2017/10/Fiat-Argo-171017-04.jpg"}/
-              .main-products__text
-                .main-products__price
-                  %span $85,000.00
-                .main-products__title
-                  %p Cayenne Models
-                %hr.line/
-                .main-products__details
-                  %span Nuevo
-                  %span 2019
-                  %span Automatico
-                  %span Gris
-
-
-
-    %section.main-parallax
-      .overlay
-        .content
-          %p ¿Tienes un vehículo para vender?
-          %a(href="")
-            Publica ahora
-       
-    .container
-      .main-general__title
-        %p
-          Los más buscados
-      .main-products__content.main-buscado__content
-        .main-products__item
-          .main-products__box
-            .main-products__img
-              %img{ :src => "https://http2.mlstatic.com/fiat-cronos-0km-siena-retira-con-tu-auto-usado-o-45000-v--D_NQ_NP_793778-MLA31012222200_062019-F.jpg"}/
-            .main-products__text
-              .main-products__price
-                %span $85,000.00
-              .main-products__title
-                %p Cayenne Models
-              %hr.line/
-              .main-products__details
-                %span Nuevo
-                %span 2019
-                %span Automatico
-                %span Gris
-        .main-products__item
-          .main-products__box
-            .main-products__img
-              %img{ :src => "https://upload.wikimedia.org/wikipedia/commons/1/16/Fiat_Cronos_1.8_16V_E.Torq_Precision.jpg"}/
-            .main-products__text
-              .main-products__price
-                %span $85,000.00
-              .main-products__title
-                %p Cayenne Models
-              %hr.line/
-              .main-products__details
-                %span Nuevo
-                %span 2019
-                %span Automatico
-                %span Gris
-        .main-products__item
-          .main-products__box
-            .main-products__img
-              %img{ :src => "https://www.conduciendo.com/wp-content/uploads/2017/10/Fiat-Argo-171017-04.jpg"}/
-            .main-products__text
-              .main-products__price
-                %span $85,000.00
-              .main-products__title
-                %p Cayenne Models
-              %hr.line/
-              .main-products__details
-                %span Nuevo
-                %span 2019
-                %span Automatico
-                %span Gris 
-                
+                  %span Gris 
+                  
     %footer.main-footer
       .container
         .row      
